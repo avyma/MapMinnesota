@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<!-- Generated a code to embed an original .geojson file into an HTML file using gis in githubcom.
+	The process involves removing the CRS line in the original .geojson file using VS text editor. Then, the entire code was copied into a gis within github.com.
+	An embedding code was generated, copied and pasted onto this HTML file. As a result, the Minnesota Water Bodies map was embedded and thus could be easily shared on a webpage-->
+
+<head>
+	<meta charset=utf-8 />
+	<!-- Below is the title of the document -->
+	<title>Water Bodies of Minnesota</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<style>
+		/* This is a comment in CSS. Below are the document styles. */
+		/* Hexadecimal values for UKy Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+		body {
+			margin: 0;
+			padding: 0;
+			background: #ffffff;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			width: 960px;
+			/* width: 80%; */
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			font-size: 2.5em;
+			/* The em unit. 3x the current size */
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.1em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 0px auto;
+		}
+
+		.max-width-img {
+			width: 100%;
+		}
+
+		/* Add custom style class here */
+	</style>
+</head>
+
+<body>
+	<section>
+
+		<h1>Minnesota Water Bodies</h1>
+		
+		<!-- This gist is a map showing Minnesota water bodies. It was generated from the minnesota_waterbodies.geojson file. The minnesota_waterbodies.geojson file was opened in VS editor, adjusted with the removal of text line: "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },.
+		The entire script was copied and pasted to a gist in github.com. The embed code below was generated and copied into this index.html file.   -->
+
+		<script src="https://gist.github.com/avyma/0876e3a056e55558a50307a39b78e709.js"></script>
+
+
+
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/avyma">The Mappers Liberation Front</a></li>
+			<li>Follow me on twitter: <a href="https://twitter.com/therightvue">@therightvue</a></li>
+			<li>Check out my <a href='https://www.flickr.com/photos/therightvue/'>trail photos</a>.</li>
+		</ul>
+		<hr>
+		<a href="https://uky-gis.github.io"><img width="20%"
+				src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+				alt="University of Kentucky Geography"></a>
+		<a href="https://newmapsplus.as.uky.edu"><img width="15%"
+				src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
+	</section>
+</body>
+
+</html>
